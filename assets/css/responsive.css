@@ -1,10 +1,10 @@
 /* Desktop Styles */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 
 }
 
 /* Tablet & Mobile Styles */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .btn {
         padding: 15px 16px;
     }
@@ -36,12 +36,12 @@
 }
 
 /* Tablet Styles */
-@media (min-width: 741px) and (max-width: 1023px) {
+@media (min-width: 46.3125em) and (max-width: 63.9375em) {
 
 }
 
 /* Mobile Styles */
-@media (max-width: 740px) {
+@media (max-width: 46.25em) {
     
     .r-col-full {
         width: 100% !important;
@@ -93,12 +93,12 @@
         margin-top: 16px;
     }
 
-    #contact .contact-info p {
+    #contact .contact-info a {
         color: #101aef;
         opacity: 0.8;
     }
 
-    #contact .contact-info p:hover {
+    #contact .contact-info a:hover {
         opacity: 1;
     }    
 
